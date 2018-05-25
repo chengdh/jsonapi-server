@@ -1,0 +1,45 @@
+{
+  "name": "jsonapi-server-for-his",
+  "version": "0.1",
+  "description": "医院支付系统-jsonapi",
+  "keywords": [
+    "his",
+    "jsonapi",
+    "json:api",
+    "swagger",
+    "api"
+  ],
+  "main": "server.js",
+  "author": "chengdh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chengdh/jsonapi-server"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "jsonapi-server": "4.2.0",
+  },
+  "devDependencies": {
+    "coveralls": "3.0.0",
+    "eslint": "4.18.1",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-standard": "3.0.1",
+    "jscpd": "0.6.17",
+    "lokka": "1.7.0",
+    "lokka-transport-http": "1.6.1",
+    "mocha": "5.0.2",
+    "mocha-performance": "0.1.1",
+    "nyc": "11.6.0",
+    "swagger-tools": "0.10.3",
+    "v8-profiler": "5.7.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
